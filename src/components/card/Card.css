@@ -1,0 +1,65 @@
+p.cardDesc {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+}
+
+.addCartBtn {
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: #000;
+    font-size: 15px;
+    transition: all 0.1s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+
+img.card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-title.h5 {
+    font-size: 18px;
+}
+
+.card-body:hover .addCartBtn {
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-body {
+    transition: all 0.3s linear;
+}
+
+.card-body:hover .cardTitleBox {opacity: 0;visibility: hidden;}
+
+.cardTitleBox {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-body {
+    position: relative;
+}
+
+.button_div {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 10px;
+}
+
+.addCartBtn:hover {
+    background: #f0461d;
+    border: 1px solid transparent;
+}
+
+.card {
+    margin-bottom: 25px;
+    min-height: 470px;
+}

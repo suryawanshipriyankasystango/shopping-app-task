@@ -1,0 +1,97 @@
+.filterWrapper ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.filterWrapper ul li {
+    font-size: 14px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: gray;
+}
+
+.filterWrapper ul li:after {
+    content: "/";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.filterWrapper ul li:last-child:after {
+    display: none;
+}
+
+.filterWrapper ul li:first-child {
+    padding-left: 0;
+}
+
+.filterWrapper ul li:last-child {
+    color: #000;
+}
+
+.filterRightSec button#dropdown-basic-button {
+    background: white;
+    color: #3e3e3e;
+    border: 1px solid #dfdfdf;
+    font-size: 15px;
+}
+
+button.MuiButtonBase-root {
+    border: 1px solid #C4C4C4;
+    border-radius: 50px;
+    margin: 5px 5px;
+    min-height: 40px;
+    text-transform: capitalize;
+    line-height: 15px;
+    font-size: 14px;
+    color: #9f9f9f;
+    padding: 10px;
+}
+
+.TotalProducts {
+    text-align: left;
+}
+
+button.MuiButtonBase-root[tabindex="0"] {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: transparent !important;
+}
+
+.filterLeftSec {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filterLeftSec h5 {
+    font-size: 16px;
+    margin-right: 7px;
+    font-weight: 500;
+}
+
+.TotalProducts h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px 0px 20px;
+}
+
+.TotalProducts h2 span {
+    color: #b3b3b3;
+}
+
+.filterSec {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.MuiTabs-flexContainer.MuiTabs-centered.css-1wf8b0h-MuiTabs-flexContainer {
+    flex-wrap: wrap;
+}

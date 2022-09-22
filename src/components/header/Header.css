@@ -1,0 +1,89 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navMenu {
+    display: flex;
+    align-items: baseline;
+}
+.navMenu a, .navMenuIcons a {
+    color: #222;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+p.search input {
+    border: none;
+}
+
+p.search input:focus {
+    border: none;
+    padding: 3px 5px;
+    font-size: 15px;
+    outline: 1px solid #d9d9d9;
+    border-radius: 5px;
+    color: gray;
+}
+
+.navMenuIcons a {
+    margin: 0 5px;
+}
+.navMenuIcons .css-106c1u2-MuiBadge-badge {
+    background-color: #f1461d;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.dropdown-menu.show {
+    display: grid;
+}
+
+
+/* ================custom css========== */
+
+
+.HeaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.MenuWrapper a {
+    margin: 0 12px;
+}
+
+.navMenuIcons .dropdown-toggle::after{
+    display: none;
+}
+
+
+.navMenuIcons button#dropdown-basic {
+    background: no-repeat;
+    color: #222;
+    border: 0;
+    padding: 0;
+}
+
+.MenuWrapper a {
+    color: #222;
+    text-decoration: none;
+}
+
+.menuIconWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.userLogoutWrapper a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 8px;
+    background: #f5481d;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navMenuIcons button#dropdown-basic:focus{
+    box-shadow: none;
+}
